@@ -1,0 +1,10 @@
+
+<form>
+  <div class="form-group">
+    <label for="txt">Example textarea</label>
+    <textarea
+      class="form-control" id="txt" rows="3"
+      (keydown)="($event.keyCode === 13)? $event.preventDefault():$event.target.value"></textarea>
+  </div>
+</form>
+
